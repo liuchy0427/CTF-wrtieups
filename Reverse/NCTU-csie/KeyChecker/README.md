@@ -7,7 +7,7 @@ KeyChecker
 
 可以知道下面這段程式應該會是重點
 
-![](https://github.com/liuchy0427/CTF-wrtieups/Reverse/NCTU-csie/KeyChecker/images/1.PNG)
+![123](https://github.com/liuchy0427/CTF-wrtieups/Reverse/NCTU-csie/KeyChecker/images/1.PNG)
 
 在試用過 x64dbg 繞過所有判斷 function 之後，可以了解真正的 Flag 是需要與真正的 password 做XOR得到的
 
@@ -40,7 +40,7 @@ KeyChecker
 所以可以得出結論:
 **只要找到真正的密碼還有要與密碼做XOR的19個字，就可以得出FLAG!!!**
 
-![](https://github.com/liuchy0427/CTF-wrtieups/Reverse/NCTU-csie/KeyChecker/images/2.PNG)
+![789](https://github.com/liuchy0427/CTF-wrtieups/Reverse/NCTU-csie/KeyChecker/images/2.PNG)
 
 碰巧在 assemble 內就可以找到，我們需要的兩組數字
 這時候寫一個簡單的 python 就可以得出我們要的 FLAG 了
